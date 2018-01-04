@@ -1,0 +1,1028 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="2.0+" schemaVersion="1">
+    <info>
+        <name>Pioneer DDJ-RB</name>
+        <author>Jason Bramsden</author>
+        <description>Pioneer DDJ-RB</description>
+        <forums></forums>
+        <wiki></wiki>
+    </info>
+    <controller id="DDJ-RB">
+        <scriptfiles>
+            <file functionprefix="" filename="Pioneer-DDJ-RB-scripts.js"/>
+        </scriptfiles>
+	<controls>
+	   <!-- Browser
+	    -->
+            <control>
+                <group>[Playlist]</group>
+		<key>PioneerDDJ-RB.rotarySelector</key>
+                <description>Browser Rotary Selector rotate</description>
+                <status>0xB6</status>
+                <midino>0x40</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Playlist]</group>
+		<key>PioneerDDJ-RB.rotarySelector</key>
+                <description>Browser Rotary Selector rotate + SHIFT</description>
+                <status>0xB6</status>
+                <midino>0x64</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+		<key>PioneerDDJ-RB.rotarySelector</key>
+                <description>Browser Rotary Selector Deck 1 press </description>
+                <status>0x90</status>
+                <midino>0x41</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel2]</group>
+		<key>PioneerDDJ-RB.rotarySelector</key>
+                <description>Browser Rotary Selector Deck 2 press </description>
+                <status>0x91</status>
+                <midino>0x41</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+		<key>PioneerDDJ-RB.rotarySelector</key>
+                <description>Browser Rotary Selector Deck 1 press + SHIFT</description>
+                <status>0x90</status>
+                <midino>0x42</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel2]</group>
+		<key>PioneerDDJ-RB.rotarySelector</key>
+                <description>Browser Rotary Selector Deck 2 press + SHIFT</description>
+                <status>0x91</status>
+                <midino>0x42</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+		<key>PioneerDDJ-RB.loadButton</key>
+                <description>Browser Load  Deck 1 </description>
+                <status>0x96</status>
+                <midino>0x46</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel2]</group>
+		<key>PioneerDDJ-RB.loadButton</key>
+                <description>Browser Deck 1  + SHIFT</description>
+                <status>0x96</status>
+                <midino>0x58</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+		<key>PioneerDDJ-RB.loadButton</key>
+                <description>Browser Deck 2</description>
+                <status>0x96</status>
+                <midino>0x47</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel2]</group>
+		<key>PioneerDDJ-RB.loadButton</key>
+                <description>Browser Deck 2  + SHIFT</description>
+                <status>0x96</status>
+                <midino>0x59</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+	 <!--  Deck
+	   -->
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.playButton</key>
+		<description>Play/Pause Deck 1</description>
+                <status>0x90</status>
+                <midino>0x0B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.playButton</key>
+		<description>Play/Pause Deck 2</description>
+                <status>0x91</status>
+                <midino>0x0B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.playButton</key>
+		<description>Play/Pause Deck 1 + SHIFT</description>
+                <status>0x90</status>
+                <midino>0x47</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.playButton</key>
+		<description>Play/Pause Deck 2 + SHIFT</description>
+                <status>0x91</status>
+                <midino>0x47</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.cueButton</key>
+                <description>Cue Deck 1</description>
+                <status>0x90</status>
+                <midino>0x0C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.cueButton</key>
+                <description>Cue Deck 2</description>
+                <status>0x91</status>
+                <midino>0x0C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.cueButton</key>
+                <description>Cue Deck 1 + SHIFT</description>
+                <status>0x90</status>
+                <midino>0x48</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.cueButton</key>
+                <description>Cue Deck 2 + SHIFT</description>
+                <status>0x91</status>
+                <midino>0x4B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Rotate Deck 1 Vinyl On</description>
+                <status>0xB0</status>
+                <midino>0x22</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Rotate Deck 1 Vinyl Off</description>
+                <status>0xB0</status>
+                <midino>0x23</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Rotate Deck 2 Vinyl On</description>
+                <status>0xB1</status>
+                <midino>0x22</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Rotate Deck 2 Vinyl Off</description>
+                <status>0xB1</status>
+                <midino>0x23</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Rotate Deck 1 + SHIFT</description>
+                <status>0xB0</status>
+                <midino>0x1F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Rotate Deck 2 + SHIFT</description>
+                <status>0xB1</status>
+                <midino>0x1F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Touch Deck 1</description>
+                <status>0x90</status>
+		<midino>0x36</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Touch Deck 2</description>
+                <status>0x91</status>
+                <midino>0x36</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Touch Deck 1 + SHIFT</description>
+                <status>0x90</status>
+		<midino>0x67</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Touch Deck 2 + SHIFT</description>
+                <status>0x91</status>
+                <midino>0x67</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogWheel</key>
+                <description>Jog Wheel Rotate Deck 1</description>
+                <status>0xB0</status>
+		<midino>0x21</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogWheel</key>
+                <description>Jog Platter Rotate Deck 2</description>
+                <status>0xB1</status>
+                <midino>0x21</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.jogWheel</key>
+                <description>Jog Platter Wheel Deck 1 + SHIFT</description>
+                <status>0xB0</status>
+		<midino>0x26/midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.jogPlatter</key>
+                <description>Jog Platter Wheel Deck 2 + SHIFT</description>
+                <status>0xB1</status>
+                <midino>0x26</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.tempoSliderLSB</key>
+                <description>Tempo slider Deck 1</description>
+                <status>0xB0</status>
+                <midino>0x20</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.tempoSliderLSB</key>
+                <description>Tempo slider Deck 2</description>
+                <status>0xB1</status>
+                <midino>0x20</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.tempoSliderLSB</key>
+                <description>Tempo slider Deck 1 + SHIFT</description>
+                <status>0xB0</status>
+                <midino>0x25</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.tempoSliderLSB</key>
+                <description>Tempo slider Deck 2 + SHIFT</description>
+                <status>0xB1</status>
+                <midino>0x25</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.syncButton</key>
+                <description>Sync Deck 1 </description>
+                <status>0x90</status>
+                <midino>0x58</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.syncButton</key>
+                <description>Sync Deck 2 </description>
+                <status>0x91</status>
+                <midino>0x58</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.syncButton</key>
+                <description>Sync Deck 1 + SHIFT </description>
+                <status>0x90</status>
+                <midino>0x5C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.syncButton</key>
+                <description>Sync Deck 2 + SHIFT</description>
+                <status>0x91</status>
+                <midino>0x5C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.loopIn</key>
+                <description>Loop In Deck 1 </description>
+                <status>0x90</status>
+                <midino>0x10</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.loopIn</key>
+                <description>Loop In Deck 2 </description>
+                <status>0x91</status>
+                <midino>0x10</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.loopIn</key>
+                <description>Loop In Deck 1 + SHIFT </description>
+                <status>0x90</status>
+                <midino>0x4C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.loopIn</key>
+                <description>Loop In Deck 2 + SHIFT</description>
+                <status>0x91</status>
+                <midino>0x4C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.loopIn</key>
+                <description>Loop In long press Deck 1</description>
+                <status>0x90</status>
+                <midino>0x45</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.loopIn</key>
+                <description>Loop In long press Deck 2</description>
+                <status>0x91</status>
+                <midino>0x45</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.loopOutButton</key>
+                <description>Loop Out Deck 1</description>
+                <status>0x90</status>
+                <midino>0x11</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.loopOutButton</key>
+                <description>Loop Out Deck 2</description>
+                <status>0x91</status>
+                <midino>0x11</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.loopOutButton</key>
+                <description>Loop Out Deck 1 + Shift</description>
+                <status>0x90</status>
+                <midino>0x4D</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.loopOutButton</key>
+                <description>Loop Out Deck 2 + Shift</description>
+                <status>0x91</status>
+                <midino>0x4D</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.shiftButton</key>
+                <description>Shift Deck 1</description>
+                <status>0x90</status>
+                <midino>0x3F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.shiftButton</key>
+                <description> Shift Deck 2</description>
+                <status>0x91</status>
+                <midino>0x3F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+	<!-- Mixer
+	  -->
+            <control>
+                <group>[Master]</group>
+                <key>crossfader</key>
+                <description>Crossfader (MSB), Slider: FADE</description>
+                <status>0xB6</status>
+                <midino>0x1F</midino>
+                <options>
+                    <fourteen-bit-msb/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>crossfader</key>
+                <description>Crossfader (MSB), Slider: FADE + Shift</description>
+                <status>0xB6</status>
+                <midino>0x3F</midino>
+                <options>
+                    <fourteen-bit-msb/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.deckFaderMSB</key>
+                <description>Channel fader Deck 1 (MSB), Slider: left CHANNELFADER (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x13</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.deckFaderMSB</key>
+                <description>Channel fader Deck 2 (MSB), Slider: right CHANNELFADER (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x13</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.deckFaderMSB</key>
+                <description>Channel fader Deck 1 (MSB) + Shift, Slider: left CHANNELFADER (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x33</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.deckFaderMSB</key>
+                <description>Channel fader Deck 2 (MSB) + Shift, Slider: right CHANNELFADER (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x33</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.gainKnobMSB</key>
+                <description>Gain Deck 1 (MSB), Knob: left TRIM (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x04</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.gainKnobMSB</key>
+                <description>Gain Deck 2 (MSB), Knob: left TRIM (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x04</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.gainKnobMSB</key>
+                <description>Gain Deck 1 (MSB) + Shift, Knob: left TRIM (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x24</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.gainKnobMSB</key>
+                <description>Gain Deck 2 (MSB) + Shift, Knob: left TRIM (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x24</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterHighKnobMSB</key>
+                <description>High level Deck 1 (MSB), Knob: left HI (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x07</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.filterHighKnobMSB</key>
+                <description>High level Deck 2 (MSB), Knob: right HI (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x07</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterHighKnobMSB</key>
+                <description>High level Deck 1 (MSB) + Shift, Knob: left HI (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x27</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.filterHighKnobMSB</key>
+                <description>High level Deck 2 (MSB) + Shift, Knob: right HI (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x27</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterMidKnobMSB</key>
+                <description>Mid level Deck 1 (MSB), Knob: left MID (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x0B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.filterMidKnobMSB</key>
+                <description>Mid level Deck 2 (MSB), Knob: right HI (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x0B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterMidKnobMSB</key>
+                <description>Mid level Deck 1 (MSB) + Shift, Knob: left MID (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x2B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.filterMidKnobMSB</key>
+                <description>Mid level Deck 2 (MSB) + Shift, Knob: right HI (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x2B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterLowKnobMSB</key>
+                <description>Low level Deck 1 (MSB), Knob: left LOW (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x0F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.filterLowKnobMSB</key>
+                <description>Low level Deck 2 (MSB), Knob: right LOW (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x0F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterLowKnobMSB</key>
+                <description>Low level Deck 1 (MSB) + Shift, Knob: left LOW (Deck 1 active)</description>
+                <status>0xB0</status>
+                <midino>0x2F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.filterLowKnobMSB</key>
+                <description>Low level Deck 2 (MSB) + Shift, Knob: right LOW (Deck 2 active)</description>
+                <status>0xB1</status>
+                <midino>0x2F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.headphoneCueButton</key>
+                <description>Toggles headphone cueing Deck 1, Button: left CUE (Deck 1 active)</description>
+                <status>0x90</status>
+                <midino>0x54</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.headphoneCueButton</key>
+                <description>Toggles headphone cueing Deck 2, Button: right CUE (Deck 2 active)</description>
+                <status>0x91</status>
+                <midino>0x54</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.headphoneCueButton</key>
+                <description>Toggles headphone cueing Deck 1 + Shift, Button: left CUE (Deck 1 active)</description>
+                <status>0x90</status>
+                <midino>0x68</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>PioneerDDJ-RB.headphoneCueButton</key>
+                <description>Toggles headphone cueing Deck 2 + Shift, Button: right CUE (Deck 2 active)</description>
+                <status>0x91</status>
+                <midino>0x68</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>PioneerDDJ-RB.masterLevel</key>
+                <description>Master level knob</description>
+                <status>0xB6</status>
+                <midino>0x08</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>PioneerDDJ-RB.headphoneMaster</key>
+                <description>Headphone master press</description>
+                <status>0x96</status>
+                <midino>0x5B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>PioneerDDJ-RB.headphoneMaster</key>
+                <description>Headphone master press + Shift</description>
+                <status>0x96</status>
+                <midino>0x78</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>PioneerDDJ-RB.headphoneMasterVol</key>
+                <description>Headphone master level</description>
+                <status>0xB6</status>
+                <midino>0x0D</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	    </control>
+	<!-- Effect
+	  -->
+	    <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fxKnobLSB</key>
+                <description>FX1 (LSB), Knob: left FX1</description>
+                <status>0xB4</status>
+                <midino>0x02</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+	    <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fxKnobLSB</key>
+                <description>FX1 (LSB) + Shift, Knob: left FX1</description>
+                <status>0xB4</status>
+                <midino>0x12</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+	    <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fxKnobRSB</key>
+                <description>FX2 (RSB), Knob</description>
+                <status>0xB5</status>
+                <midino>0x02</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+	    <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fxKnobRSB</key>
+                <description>FX2 (RSB) + Shift, Knob</description>
+                <status>0xB5</status>
+                <midino>0x12</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fxButton</key>
+                <description>FX1-1 (Deck1), Button: left FX1-1</description>
+                <status>0x94</status>
+                <midino>0x47</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fxButton</key>
+                <description>FX1-1 (Deck1) + Shift, Button: Right</description>
+                <status>0x94</status>
+                <midino>0x63</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fxButton</key>
+                <description>FX2-1 (Deck2), Button: Right </description>
+                <status>0x95</status>
+                <midino>0x47</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fxButton</key>
+                <description>FX2-1 (Deck2) + Shift, Button: Right</description>
+                <status>0x95</status>
+                <midino>0x63</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterKnobMSB</key>
+                <description>Filter Deck 1 (MSB), Knob: left FILTER (Deck 1 active)</description>
+                <status>0xB6</status>
+                <midino>0x17</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>PioneerDDJ-RB.filterKnobMSB</key>
+                <description>Filter Deck 1 (MSB), Knob: Right FILTER (Deck 2 active)</description>
+                <status>0xB6</status>
+                <midino>0x18</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fx1BeatDown</key>
+                <description>FX1 (Deck1), Beat down button </description>
+                <status>0x94</status>
+                <midino>0x4A</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fx1BeatDown</key>
+                <description>FX1 (Deck1), Beat down button + Shift</description>
+                <status>0x94</status>
+                <midino>0x66</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fx2BeatDown</key>
+                <description>FX2 (Deck2), Beat down button </description>
+                <status>0x95</status>
+                <midino>0x4A</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fx1BeatDown</key>
+                <description>FX2 (Deck2), Beat down button + Shift</description>
+                <status>0x95</status>
+                <midino>0x66</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fx1BeatUp</key>
+                <description>FX1 (Deck1), Beat up button </description>
+                <status>0x94</status>
+                <midino>0x4B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>PioneerDDJ-RB.fx1BeatUp</key>
+                <description>FX1 (Deck1), Beat up button + Shift</description>
+                <status>0x94</status>
+                <midino>0x6B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fx2BeatUp</key>
+                <description>FX2 (Deck2), Beat up button </description>
+                <status>0x95</status>
+                <midino>0x4B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>PioneerDDJ-RB.fx1BeatUp</key>
+                <description>FX2 (Deck2), Beat Up button + Shift</description>
+                <status>0x95</status>
+                <midino>0x6B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+	</control>
+	<!--Multi Function
+	  -->
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
