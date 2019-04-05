@@ -321,7 +321,7 @@
                 <key>PioneerDDJ-RB.jogWheel</key>
                 <description>Jog Platter Wheel Deck 1 + SHIFT</description>
                 <status>0xB0</status>
-		<midino>0x26/midino>
+		<midino>0x26</midino>
                 <options>
                     <script-binding/>
                 </options>
